@@ -31,4 +31,8 @@ public class QueueLL {
     return list.headValue();
   }
   
+  public String toString() {
+    return list.toString();
+  }
+  
 }

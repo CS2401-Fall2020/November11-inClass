@@ -8,6 +8,8 @@ public class LinkedList {
       value = inVal;
       next = inNext;
     }
+    
+    public String toString() { return value; }
   }
   
   private Node head;
@@ -63,5 +65,15 @@ public class LinkedList {
       rtn++;
     }
     return rtn;
+  }
+  
+  public String toString() {
+    Node current = head;
+    String rtn = "";
+    while(current != null) {
+      rtn += current + "->";
+      current = current.next;
+    }
+    return rtn + "null";
   }
 }
