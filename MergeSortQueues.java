@@ -11,7 +11,7 @@ public class MergeSortQueues {
     myQ.enqueue("F");
     System.out.println(myQ);
     sort(myQ);
-    System.out.println(myQ);
+    System.out.println(myQ); 
   }
   
   // given a possibly unsorted queue
