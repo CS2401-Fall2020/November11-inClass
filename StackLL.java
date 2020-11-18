@@ -35,4 +35,7 @@ public class StackLL {
     return list.tailValue();
   }
 
+  public String toString() {
+    return list.toString();
+  }
 }
